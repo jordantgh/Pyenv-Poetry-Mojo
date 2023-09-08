@@ -6,6 +6,8 @@ This repo shows you how to set up a Mojo🔥 project with Python interop using `
 
 I assume you have Python, Mojo🔥, `pyenv`, `direnv` and `poetry` installed on your machine. I set this up on WSL2 Ubuntu 22.04.
 
+For `poetry` to work with `pyenv local` specified Python versions, make sure you set the `poetry` config option `virtualenvs.prefer-active-python` to true.
+
 ## Setting up `pyenv`
 
 1. **Install Python Version**: If you haven't already, install the desired Python version.
